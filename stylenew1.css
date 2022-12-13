@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../order/main/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsla(225, 100%, 94%, 0.699);
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 3px 3px 0px  hsl(224, 23%, 55%);
+    width: 25%;
+    margin: 0;
+    margin-left: 500px;
+    margin-top: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+h5{
+    color: hsl(223, 47%, 23%);
+}
+
+.two{
+    text-align: center;
+    margin: 20px;
+    font-size: 12px;
+    /* padding-top: 10px; */
+}
+.two h2{
+    padding-top: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);}
+    
+
+.pics1 img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.pic2 img{
+    width: 60%;
+}
+
+
+
+p {
+    color: hsl(224, 23%, 55%);
+}
+.text1{
+    padding-top: 10px;
+}
+.text{
+    padding-right: 20px;
+    font-size: 15px;
+}
+.chan{
+    padding-right: 15px;
+}
+.text p{
+    font-size: 13px;
+}
+
+
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hsl(180, 100%, 98%);
+    /* margin-bottom: 20px; */
+    /* width: 30%; */
+    height: 100px;
+    padding-top: 30px;
+}
+.ref h4{
+    background-color: hsl(245, 75%, 52%);
+    font-weight: 600;
+    
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 5px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+.ref a{
+
+    text-decoration: none;
+    font-weight: 200
+}
+
+.can{
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.pic2{
+    margin-left: 20px;
+    /* width: 10%; */
+}
+
+@media screen and (max-width:700px) {
+    .container{
+        display: flex;
+        /* width: 15%; */
+        margin-bottom: 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center; 
+          
+    }
+    body{
+        width: 100%;
+        margin-right: 100px;
+    }
+
+    .two h2{
+        
+        font-size: 25px;
+    }
+    .ref h4{
+        font-size: 18px;
+
+    }
+
+    }
+
+
+    @media screen and (max-width:400px) {
+        .container{
+            display: flex;
+            /* width: 15%; */
+            margin-bottom: 20px;
+            flex-direction: column;
+    
+        }
+
+        .three{
+            width: 85%;
+            display: flex;
+            flex-direction: column;
+            margin-left: 5px;
+            padding-left: 5px;
+        }
+        .text1{
+            width: 25%;
+            padding-left: 25px;
+        }
+        .ref h4{
+            font-size: 10px;
+            width: 70%;
+            margin-top: 15px;
+            margin-left: 16px;
+            
+            
+        }
+
+        .text p{
+            padding-left: 8px;
+        }
+
+        .pic2 img{
+            margin-right: 45%;
+        }
+
+        .two h2{
+            font-size: 12px;
+            width: 10%;
+            padding-left: 20px;
+        }
+
+    }
